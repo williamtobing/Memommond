@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".EditMemoActivity">
 
-    <android.support.design.widget.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <EditText
@@ -19,6 +19,6 @@
             android:gravity="top"
             android:inputType="textMultiLine"
             />
-    </android.support.design.widget.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
 </RelativeLayout>
